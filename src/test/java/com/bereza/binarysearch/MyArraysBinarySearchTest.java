@@ -1,6 +1,5 @@
 package com.bereza.binarysearch;
 
-import com.bereza.binarysearch.MyArrays;
 import java.util.Comparator;
 
 public class MyArraysBinarySearchTest {

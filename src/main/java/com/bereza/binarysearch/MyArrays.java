@@ -3,7 +3,7 @@ package com.bereza.binarysearch;
 import java.util.Comparator;
 
 /**
- * Класс Arrays реализует методы бинарного поиска для различных типов данных,
+ * Класс MyArrays реализует методы бинарного поиска для различных типов данных,
  * включая примитивные типы и обобщенные массивы с использованием Comparator.
  */
 public class MyArrays {
