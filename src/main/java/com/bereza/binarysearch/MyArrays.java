@@ -1,4 +1,4 @@
-package com.example.binarysearch;
+package com.bereza.binarysearch;
 
 import java.util.Comparator;
 
@@ -6,7 +6,7 @@ import java.util.Comparator;
  * Класс Arrays реализует методы бинарного поиска для различных типов данных,
  * включая примитивные типы и обобщенные массивы с использованием Comparator.
  */
-public class Arrays {
+public class MyArrays {
 
     // Обобщенный метод бинарного поиска для различных типов массивов объектов
     private static <T> int genericBinarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator<? super T> comparator) {
