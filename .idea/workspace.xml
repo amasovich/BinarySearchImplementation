@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="In the MyArraysBinarySearchTest class, I created tests for MyArray methods">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyCollectionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysBinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysBinarySearchTest.java" afterDir="false" />
+    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysBinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732717045030</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class">
+      <option name="closed" value="true" />
+      <created>1732721596229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732721596229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +142,7 @@
     <MESSAGE value="Placed comments in the Arrays class" />
     <MESSAGE value="Rename package in &quot;src&quot; and create package in &quot;test&quot;" />
     <MESSAGE value="In the MyArraysBinarySearchTest class, I created tests for MyArray methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="In the MyArraysBinarySearchTest class, I created tests for MyArray methods" />
+    <MESSAGE value="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class" />
   </component>
 </project>

@@ -2,7 +2,7 @@ package com.bereza.binarysearch;
 
 import java.util.Comparator;
 
-public class MyArraysBinarySearchTest {
+public class MyArraysTest {
     public static void main(String[] args) {
         // Тестирование бинарного поиска для массива byte
         byte[] byteArray = {1, 3, 5, 7, 9, 11};
