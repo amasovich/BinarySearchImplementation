@@ -61,10 +61,16 @@ public class Arrays {
         return genericBinarySearch(a, 0, a.length, key, Byte::compare);
     }
 
+    public static int binarySearch(byte[] a, int fromIndex, int toIndex, byte key) {
+        return genericBinarySearch(a, fromIndex, toIndex, key, Byte::compare);
+    }
 
+    public static int binarySearch(char[] a, char key) {
+        return genericBinarySearch(a, 0, a.length, key, Character::compare);
+    }
 
-
-
-
+    public static int binarySearch(char[] a, int fromIndex, int toIndex, char key) {
+        return genericBinarySearch(a, fromIndex, toIndex, key, Character::compare);
+    }
 
 }
