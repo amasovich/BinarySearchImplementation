@@ -8,7 +8,17 @@ import java.util.Comparator;
  */
 public class MyArrays {
 
-    // Обобщенный метод бинарного поиска для различных типов массивов объектов
+    /**
+     * Обобщенный метод бинарного поиска для различных типов массивов объектов.
+     *
+     * @param <T> тип элементов массива
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @param comparator компаратор для сравнения элементов
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static <T> int genericBinarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator<? super T> comparator) {
         // Границы поиска
         int low = fromIndex;
@@ -38,7 +48,15 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Перегруженный метод бинарного поиска для массива byte
+    /**
+     * Перегруженный метод бинарного поиска для массива byte.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(byte[] a, int fromIndex, int toIndex, byte key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -58,7 +76,15 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Перегруженный метод бинарного поиска для массива char
+    /**
+     * Перегруженный метод бинарного поиска для массива char.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(char[] a, int fromIndex, int toIndex, char key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -78,7 +104,15 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Перегруженный метод бинарного поиска для массива double
+    /**
+     * Перегруженный метод бинарного поиска для массива double.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(double[] a, int fromIndex, int toIndex, double key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -98,7 +132,15 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Перегруженный метод бинарного поиска для массива float
+    /**
+     * Перегруженный метод бинарного поиска для массива float.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(float[] a, int fromIndex, int toIndex, float key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -118,7 +160,15 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Перегруженный метод бинарного поиска для массива int
+    /**
+     * Перегруженный метод бинарного поиска для массива int.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(int[] a, int fromIndex, int toIndex, int key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -138,7 +188,15 @@ public class MyArrays {
         return -(low + 1); // элемент не найден
     }
 
-    // Перегруженный метод бинарного поиска для массива long
+    /**
+     * Перегруженный метод бинарного поиска для массива long.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(long[] a, int fromIndex, int toIndex, long key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -158,7 +216,15 @@ public class MyArrays {
         return -(low + 1); // элемент не найден
     }
 
-    // Перегруженный метод бинарного поиска для массива short
+    /**
+     * Перегруженный метод бинарного поиска для массива short.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     private static int genericBinarySearch(short[] a, int fromIndex, int toIndex, short key) {
         int low = fromIndex;
         int high = toIndex - 1;
@@ -178,82 +244,198 @@ public class MyArrays {
         return -(low + 1);
     }
 
-    // Бинарный поиск для массива byte
+    /**
+     * Метод бинарного поиска для массива byte.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(byte[] a, byte key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива byte
+    /**
+     * Метод бинарного поиска для части массива byte.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(byte[] a, int fromIndex, int toIndex, byte key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива char
+    /**
+     * Метод бинарного поиска для массива char.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(char[] a, char key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива char
+    /**
+     * Метод бинарного поиска для части массива char.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(char[] a, int fromIndex, int toIndex, char key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива double
+    /**
+     * Метод бинарного поиска для массива double.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(double[] a, double key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива double
+    /**
+     * Метод бинарного поиска для части массива double.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(double[] a, int fromIndex, int toIndex, double key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива float
+    /**
+     * Метод бинарного поиска для массива float.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(float[] a, float key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива float
+    /**
+     * Метод бинарного поиска для части массива float.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(float[] a, int fromIndex, int toIndex, float key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива int
+    /**
+     * Метод бинарного поиска для массива int.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(int[] a, int key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива int
+    /**
+     * Метод бинарного поиска для части массива int.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(int[] a, int fromIndex, int toIndex, int key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива long
+    /**
+     * Метод бинарного поиска для массива long.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(long[] a, long key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива long
+    /**
+     * Метод бинарного поиска для части массива long.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(long[] a, int fromIndex, int toIndex, long key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для массива short
+    /**
+     * Метод бинарного поиска для массива short.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(short[] a, short key) {
         return genericBinarySearch(a, 0, a.length, key);
     }
 
-    // Бинарный поиск для части массива short
+    /**
+     * Метод бинарного поиска для части массива short.
+     *
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static int binarySearch(short[] a, int fromIndex, int toIndex, short key) {
         return genericBinarySearch(a, fromIndex, toIndex, key);
     }
 
-    // Бинарный поиск для обобщенных массивов с использованием Comparator
+    /**
+     * Метод бинарного поиска для обобщенных массивов с использованием Comparator.
+     *
+     * @param <T> тип элементов массива
+     * @param a массив, в котором выполняется поиск
+     * @param key элемент, который необходимо найти
+     * @param c компаратор для сравнения элементов
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static <T> int binarySearch(T[] a, T key, Comparator<? super T> c) {
         return genericBinarySearch(a, 0, a.length, key, c);
     }
 
-    // Бинарный поиск для части обобщенного массива с использованием Comparator
+    /**
+     * Метод бинарного поиска для части обобщенного массива с использованием Comparator.
+     *
+     * @param <T> тип элементов массива
+     * @param a массив, в котором выполняется поиск
+     * @param fromIndex начальный индекс (включительно)
+     * @param toIndex конечный индекс (исключительно)
+     * @param key элемент, который необходимо найти
+     * @param c компаратор для сравнения элементов
+     * @return индекс найденного элемента или отрицательное значение, указывающее место вставки
+     */
     public static <T> int binarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator<? super T> c) {
         return genericBinarySearch(a, fromIndex, toIndex, key, c);
     }

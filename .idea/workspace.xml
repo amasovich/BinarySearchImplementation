@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysBinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysTest.java" afterDir="false" />
+    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="rename MyArraysTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/MyCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MyArraysBinarySearchTest.executor": "Run",
+    "Application.MyArraysTest.executor": "Run",
     "Application.MyCollectionsTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732721596229</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rename MyArraysTest">
+      <option name="closed" value="true" />
+      <created>1732721661645</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732721661645</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +154,7 @@
     <MESSAGE value="Rename package in &quot;src&quot; and create package in &quot;test&quot;" />
     <MESSAGE value="In the MyArraysBinarySearchTest class, I created tests for MyArray methods" />
     <MESSAGE value="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="I created the My Collections class with the methods for the task and checked the operation of the methods in the MyCollectionsTest class" />
+    <MESSAGE value="rename MyArraysTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename MyArraysTest" />
   </component>
 </project>
