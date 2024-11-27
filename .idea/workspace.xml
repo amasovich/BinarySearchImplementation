@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="Correction, I added an overloaded binary search method only for the byte array">
+    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="Created a copy paste of the other overloaded methods with modified data types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/binarysearch/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/binarysearch/Arrays.java" afterDir="false" />
     </list>
@@ -89,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1732711482665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a copy paste of the other overloaded methods with modified data types">
+      <option name="closed" value="true" />
+      <created>1732713387164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732713387164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a private &quot;genericBinarySearch&quot; method for all public methods &quot;binarySearch&quot;" />
     <MESSAGE value="Added the &quot;private static int genericBinarySearch&quot; method for all primitive methods" />
     <MESSAGE value="Correction, I added an overloaded binary search method only for the byte array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction, I added an overloaded binary search method only for the byte array" />
+    <MESSAGE value="Created a copy paste of the other overloaded methods with modified data types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a copy paste of the other overloaded methods with modified data types" />
   </component>
 </project>
