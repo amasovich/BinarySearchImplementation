@@ -37,6 +37,30 @@ public class Arrays {
         return -(low + 1);
     }
 
+    private static int genericBinarySearch(byte[] a, int fromIndex, int toIndex, byte key, Comparator<Byte> comparator) {
+        int low = fromIndex;
+        int high = toIndex - 1;
+
+        while (low <= high) {
+            int mid = low + ((high - low) >>> 1);
+            byte midVal = a[mid];
+            int cmp = comparator.compare(midVal, key);
+
+            if (cmp < 0) {
+                low = mid + 1;
+            } else if (cmp > 0) {
+                high = mid - 1;
+            } else {
+                return mid; // элемент найден
+            }
+        }
+        return -(low + 1); // элемент не найден
+    }
+
+    public static int binarySearch(byte[] a, byte key) {
+        return genericBinarySearch(a, 0, a.length, key, Byte::compare);
+    }
+
 
 
 
