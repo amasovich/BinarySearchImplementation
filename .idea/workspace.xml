@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="Placed comments in the Arrays class">
+    <list default="true" id="64e91ad3-71de-4215-a402-6e0305a89f60" name="Changes" comment="Rename package in &quot;src&quot; and create package in &quot;test&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bereza/binarysearch/MyArraysBinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/binarysearch/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/binarysearch/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bereza/binarysearch/Collections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyArraysBinarySearchTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -106,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732713716582</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rename package in &quot;src&quot; and create package in &quot;test&quot;">
+      <option name="closed" value="true" />
+      <created>1732714583368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732714583368</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +125,7 @@
     <MESSAGE value="Correction, I added an overloaded binary search method only for the byte array" />
     <MESSAGE value="Created a copy paste of the other overloaded methods with modified data types" />
     <MESSAGE value="Placed comments in the Arrays class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Placed comments in the Arrays class" />
+    <MESSAGE value="Rename package in &quot;src&quot; and create package in &quot;test&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename package in &quot;src&quot; and create package in &quot;test&quot;" />
   </component>
 </project>
